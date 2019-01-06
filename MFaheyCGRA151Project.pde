@@ -45,15 +45,15 @@ void setup(){
   
   
   //load in the different sprites in a futile attempt to reduce lag
-  enemyMineImage = loadImage("enemyMine.png");
-  enemyProjectileImage = loadImage("enemyBullet.png");
-  rammerImage = loadImage("rammer.png");
-  shooterImage = loadImage("shooter.png");
-  trapperImage = loadImage("trapper.png");
-  playerProjectileImage = loadImage("bullet.png");
-  playerMissileImage = loadImage("missile.png");
-  powerupImage = loadImage("powerup.png");
-  bossImage = loadImage("boss.png");
+  enemyMineImage = loadImage("images/enemyMine.png");
+  enemyProjectileImage = loadImage("images/enemyBullet.png");
+  rammerImage = loadImage("images/rammer.png");
+  shooterImage = loadImage("images/shooter.png");
+  trapperImage = loadImage("images/trapper.png");
+  playerProjectileImage = loadImage("images/bullet.png");
+  playerMissileImage = loadImage("images/missile.png");
+  powerupImage = loadImage("images/powerup.png");
+  bossImage = loadImage("images/boss.png");
   
   
   frameRate(60);

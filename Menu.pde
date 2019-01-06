@@ -10,7 +10,7 @@ public class Menu{
     
     //set the background to be the middle of the background image
     background = backgroundImage.get( (backgroundWidth-width)/2, (backgroundHeight-height)/2, 900, 900);
-    player = loadImage("player.png");
+    player = loadImage("images/player.png");
     
     
     //clear score from previous game

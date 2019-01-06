@@ -12,7 +12,7 @@ public class Scoring{
     background = backgroundImage.get( (backgroundWidth-width)/2, (backgroundHeight-height)/2, 900, 900);
     
     //set new cursor color
-    mouse = loadImage("mouseWhite.png");
+    mouse = loadImage("images/mouseWhite.png");
     cursor(mouse, mouse.width/2, mouse.height/2);
     
     //font size
@@ -33,7 +33,7 @@ public class Scoring{
     text("You scored: " + score, width/2, height/2);
     
     //load the image and put text on it
-    menuButton = loadImage("menuButton.png");
+    menuButton = loadImage("images/menuButton.png");
     image(menuButton, width/2, height*7/8);
     text("Menu", width/2, height*7/8);
   }

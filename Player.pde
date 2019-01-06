@@ -5,7 +5,7 @@ public class Player{
   PVector playerPosition = new PVector(); //on the big image, not window
   PVector playerVelocity = new PVector();
   PVector mousePos = new PVector();
-  PImage playerSprite = loadImage("player.png");
+  PImage playerSprite = loadImage("images/player.png");
   float maxTurn = PI/20; //PI/20
   float angleDifference;
   

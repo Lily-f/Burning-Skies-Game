@@ -12,7 +12,7 @@ public class Game{
   int bossEggs = 3;  //number of enemy that spawn on boss when he dies
   
   //arraylist of lives
-  List <PImage> lives = new ArrayList<PImage>(  Arrays.asList(loadImage("player.png"), loadImage("player.png"), loadImage("player.png")) );
+  List <PImage> lives = new ArrayList<PImage>(  Arrays.asList(loadImage("images/player.png"), loadImage("images/player.png"), loadImage("images/player.png")) );
   
   //map of all enemy types and a sets of individual enemys
   Map <String, HashSet<Enemy>> enemies = new HashMap<String, HashSet<Enemy> >();
@@ -38,7 +38,7 @@ public class Game{
     player = new Player();
     
     //set new cursor color
-    mouse = loadImage("mouse.png");
+    mouse = loadImage("images/mouse.png");
     cursor(mouse, mouse.width/2, mouse.height/2);
     
   }
@@ -382,7 +382,7 @@ public class Game{
   
   //adds an extra life (from powerups). max l
   public void addLife(){
-    lives.add(loadImage("player.png"));
+    lives.add(loadImage("images/player.png"));
   }
   
   
